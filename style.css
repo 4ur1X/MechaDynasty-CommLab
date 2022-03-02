@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@500;600;700;800&display=swap');
+
+*{
+    font-family: 'Smooch Sans', sans-serif;
+    background-image: url('images/bg.jpg');
+    background-size: cover;
+    color: whitesmoke;
+}
+
+#title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.grid-main{
+    margin: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 225px;
+    gap: 30px;
+    justify-content: center;
+}
+
+.grid-1{
+    border-radius: 9px;
+    font-size: 45px;
+    padding-left: 6px;
+    background-image: url('images/robo1.jpg');
+}
+
+.grid-2{
+    background-image: url('images/robo2.jpg');
+    border-radius: 9px;
+    font-size: 45px;
+    padding-left: 6px;
+}
+
+.grid-4{
+    background-image: url('images/robo4.jpg');
+    border-radius: 9px;
+    font-size: 45px;
+    padding-left: 6px;
+}
+
+.grid-5{
+    background-image: url('images/robo5.jpg');
+    border-radius: 9px;
+    font-size: 45px;
+    padding-left: 6px;
+}
+
+.grid-6{
+    grid-row: 1 / 3;
+    grid-column: 2;
+    background-image: url('images/robo6.jpg');
+    border-radius: 9px;
+    font-size: 45px;
+    padding-left: 6px;
+}
+
+.grid-7{
+    grid-column: 1 / 4;
+    background-image: url('images/banner.png');
+    border-radius: 9px;
+    font-size: 45px;
+    padding-left: 6px;
+}
+
+.grid-8{
+    grid-row: 4 / 6;
+    background-image: url('images/robo8.png');
+    border-radius: 9px;
+    font-size: 45px;
+    padding-left: 6px;
+}
+
+.grid-9{
+    background-image: url('images/robo9.png');
+    border-radius: 9px;
+    font-size: 45px;
+    padding-left: 6px;
+}
+.grid-10{
+    background-image: url('images/robo10.jpg');
+    border-radius: 9px;
+    font-size: 45px;
+    padding-left: 6px;
+}
+.grid-11{
+    background-image: url('images/robo11.jpg');
+    border-radius: 9px;
+    font-size: 45px;
+    padding-left: 6px;
+}
+
+.grid-13{
+    background-image: url('images/robo13.jpg');
+    border-radius: 9px;
+    font-size: 45px;
+    padding-left: 6px;
+}
